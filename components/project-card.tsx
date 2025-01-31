@@ -16,6 +16,7 @@ interface ProjectCardProps {
   technologies: string[];
   demoLink?: string;
   repoLink?: string;
+  biggest?: boolean;
 }
 
 export function ProjectCard({
@@ -24,9 +25,14 @@ export function ProjectCard({
   technologies,
   demoLink,
   repoLink,
+  biggest = false,
 }: ProjectCardProps) {
   return (
-    <Card className="flex flex-col h-full">
+    <Card
+      className={`flex flex-col h-full ${
+        biggest ? "border-4 border-blue-500" : ""
+      }`}
+    >
       <CardHeader>
         <CardTitle>{title}</CardTitle>
       </CardHeader>

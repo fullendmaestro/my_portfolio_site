@@ -16,6 +16,7 @@ const projects = [
     ],
     demoLink: "https://aptos-nft-marketplace-pi.vercel.app/",
     repoLink: "https://github.com/fullendmaestro/aptos-nft-marketplace",
+    biggest: true,
   },
   {
     title: "Taipy Assistant",
