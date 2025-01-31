@@ -18,6 +18,20 @@ const projects = [
     repoLink: "https://github.com/fullendmaestro/aptos-nft-marketplace",
   },
   {
+    title: "Taipy Assistant",
+    description:
+      "An AI-powered browser extension concept that integrates with your web browsing experience using Google's Gemini 1.5 Flash model and Taipy's GUI framework.",
+    technologies: [
+      "Python",
+      "Google's Gemini",
+      "Taipy",
+      "WebSocket",
+      "Web api",
+    ],
+    demoLink: "https://assist-ai-eta.vercel.app/",
+    repoLink: "https://github.com/fullendmaestro/taipy-challenge",
+  },
+  {
     title: "Assist-AI",
     description:
       "Assist AI is an innovative application that seamlessly integrates text, speech, and visual inputs to create an immersive user experience.",
